@@ -1,0 +1,29 @@
+{
+    "name": "Twilio Appointment Reminder QuickStart Tutorial",
+    "description": "A sample Twilio app that calls a phone reminder and provides an automated reminder",
+    "keywords": ["Twilio", "QuickStart", "Sample"],
+    "website": "https://www.twilio.com/docs/howto/appointment-reminder",
+    "success_url": "/appointmentreminder",
+    "env": {
+        "ACCOUNT_SID": {
+            "description": "You can find this on your Twilio Account info page",
+            "required": true
+        },
+        "ACCOUNT_TOKEN": {
+            "description": "You can find this on your Twilio Account info page",
+            "required": true
+        },
+        "CALLER_ID": {
+            "description": "Outgoing Caller ID you have previously validated with Twilio",
+            "required": true
+        },
+        "BASE_URL": {
+            "description": "base URL of this application. Set this with the resolved success URL returned on successful setup",
+            "value": ""
+        }
+    },
+    "addons": [
+    	"papertrail"
+    ]
+}
+
